@@ -14,7 +14,7 @@ os.environ["WANDB_DISABLED"] = "true"
 @dataclass
 class ModelArguments:
     """
-    Arguments pertaining to what data we are going to input our model for training and eval.
+    Arguments for the models that should be merged and the amounts of training data sets for weighted averaging.
     """
     output_dir: str = field(
         metadata={"help": "Path where the new model should be saved"}
