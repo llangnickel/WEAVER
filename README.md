@@ -25,4 +25,15 @@ Apply WEAVER to two or more already trained models, for example:
   
 For help, use: `python weaver.py -h`
 
+## How to Cite
+@misc{langnickel2022bert,  
+      title={BERT WEAVER: Using WEight AVERaging to Enable Lifelong Learning for Transformer-based Models},   
+      author={Lisa Langnickel and Alexander Schulz and Barbara Hammer and Juliane Fluck},  
+      year={2022},  
+      eprint={2202.10101},  
+      archivePrefix={arXiv},  
+      primaryClass={cs.CL}  
+}  
+
+
 
